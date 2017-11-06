@@ -1,0 +1,2 @@
+sequenza: 8 4 2 1
+lunghezza: 4

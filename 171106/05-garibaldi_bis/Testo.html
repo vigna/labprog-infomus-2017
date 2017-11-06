@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="/Users/vigna/www/labprog/labprog.css" type="text/css" />
+</head>
+<body>
+<h1 id="garibaldi-fu-ferito-la-vendetta">Garibaldi fu ferito (la vendetta)</h1>
+<h2 id="descrizione">Descrizione</h2>
+<p>Scrivete un programma che legga delle righe in input e le stampi dopo aver sostituito tutte le vocali con la prima vocale che compare in ogni riga. Il programma si deve fermare quando viene premuto Control-D per chiudere il flusso di ingresso.</p>
+<h2 id="esempio">Esempio</h2>
+<p>Avendo nel flusso di ingresso</p>
+<pre><code>mamma mia
+bella aiuola
+Garibaldi fu ferito
+Addio, monti SORGENTI</code></pre>
+<p>il programma emette nel flusso di uscita</p>
+<pre><code>mamma maa
+belle eeeele
+Garabalda fa farata
+Addaa, manta SARGANTA</code></pre>
+<h2 id="suggerimenti">Suggerimenti</h2>
+<p>Potete leggere l'input in un ciclo <code>while</code> controllato dal valore restituito dal metodo <code>s.hasNextLine()</code>, tramite l'istruzione</p>
+<pre><code>String l = s.nextLine();</code></pre>
+<p>dove <code>s</code> è una variabile di tipo <code>Scanner</code> opportunamente inizializzata.</p>
+<p>Utilizzate l’istruzione <code>switch</code> per scrivere un metodo statico che accetti un carattere arbitrario e un carattere di sostituzione, e restituisca il primo carattere trasformato opportunamente.</p>
+<p>Per questo programma è bene effettuare le prove utilizzando la redirezione: create un file <code>input.txt</code> contenente le righe di prova, ed eseguite la vostra soluzione aggiungendo <code>&lt; input.txt</code> alla fine della riga di comando. In questo modo l'input invece che da tastiera arriverà dal file <code>input.txt</code>.</p>
+</body>
+</html>
