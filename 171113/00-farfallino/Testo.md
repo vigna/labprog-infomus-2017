@@ -6,19 +6,19 @@ Descrizione
 
 Quando i vostri docenti di laboratorio di programmazione erano bambini,
 usavano a volte, per comunicare con i loro simili, uno speciale alfabeto,
-detto alfabeto farfallino. L’alfabeto farfallino consiste nel sostituire a
+detto alfabeto farfallino. L'alfabeto farfallino consiste nel sostituire a
 ciascuna vocale una sequenza di tre lettere della forma vocale-f-vocale.
 Per esempio, alla lettera `a` viene sostituita la sequenza `afa`, alla
 lettera `e` la sequenza `efe` e così via. Dovete scrivere un programma che
-legge righe scritte dall’utente e ne stampa la traduzione in alfabeto
+legge righe scritte dall'utente e ne stampa la traduzione in alfabeto
 farfallino.
 
 Vincoli
 -------
 
-Potete assumere che il testo in input in input non contenga lettere
-maiuscole. Il programma si deve fermare quando viene premuto Control-D per
-chiudere il flusso di ingresso.
+Potete assumere che il testo in input non contenga lettere maiuscole.
+Il programma si deve fermare quando viene premuto Control-D per chiudere il
+flusso di ingresso.
 
 Esempio
 -------

@@ -5,7 +5,7 @@ Descrizione
 -----------
 
 Il crivello di Eratostene è un algoritmo antico per determinare i numeri
-primi fino a un dato intero `n`. L’algoritmo utilizza un array di
+primi fino a un dato intero `n`. L'algoritmo utilizza un array di
 variabili booleane (inizializzate a `true`) che nella posizione `i`
 conterrà alla fine il valore di verità “`i` è primo”.
 

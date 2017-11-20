@@ -7,7 +7,7 @@ Descrizione
 Svetonio nella “Vita dei dodici Cesari” racconta che Giulio Cesare usava per
 le sue corrispondenze riservate un codice di sostituzione molto semplice,
 nel quale la lettera in chiaro veniva sostituita dalla lettera che la
-segue di tre posti nell’alfabeto: la lettera `A` è sostituita dalla `D`,
+segue di tre posti nell'alfabeto: la lettera `A` è sostituita dalla `D`,
 la `B` dalla `E` e così via fino alle ultime lettere che sono cifrate con
 le prime.
 
@@ -17,7 +17,7 @@ necessariamente tre.
 
 Dovete scrivere un programma che chiede in input una stringa da cifrare e
 il numero `k` (la chiave di cifratura), ed emette in output la stringa
-cifrata; il programma deve cifrare solo le lettere dell’alfabeto,
+cifrata; il programma deve cifrare solo le lettere dell'alfabeto,
 mantenendo minuscole le minuscole, e maiuscole le maiuscole, mentre deve
 lasciare inalterati gli altri simboli.
 

@@ -4,16 +4,16 @@ La strana sillabazione
 Descrizione
 -----------
 
-Il professor Precisini, dell’Accademia della crusca, sostenendo che le
+Il professor Precisini, dell'Accademia della crusca, sostenendo che le
 regole di sillabazione della lingua italiana sono troppo complesse e piene
 di eccezioni, propone un nuovo e originale metodo di sillabazione. Il
 metodo consiste in questo: una sillaba è una sequenza massimale di
 caratteri consecutivi che rispettano l’ordine alfabetico. Per esempio, la
 parola ambire viene sillabata come am-bir-e: infatti la lettera a precede
-la lettera m, e le lettere b, i e r rispettano anch’esse l’ordine.
+la lettera m, e le lettere b, i e r rispettano anch'esse l'ordine.
 Analogamente, la parola sotterfugio viene sillabata come s-ott-er-fu-gio.
 
-Dovete scrivere un programma che legge righe scritte dall’utente e ne
+Dovete scrivere un programma che legge righe scritte dall'utente e ne
 stampa la versione sillabata.
 
 Vincoli
