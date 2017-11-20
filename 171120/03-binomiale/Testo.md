@@ -12,7 +12,7 @@ fattoriale calcola il binomale di <var>n</var> e <var>k</var>, cioè
 Vincoli
 -------
 
-<var>k</var> ≤ <var>n</var>.
+<var>k</var> ≤ <var>n</var> ≤ 20.
 
 Esempio
 -------
@@ -32,6 +32,14 @@ mentre avendo sulla riga di comando gli argomenti
 il programma stampa
 
     1
+
+Infine, avendo sulla riga di comando gli argomenti
+
+    20 4
+
+il programma stampa
+
+    4845
 
 Suggerimenti
 ------------
