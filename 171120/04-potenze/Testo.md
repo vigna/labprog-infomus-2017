@@ -5,8 +5,8 @@ Descrizione
 -----------
 
 Dato un numero in virgola mobile 𝛼 e un intero <var>n</var> come argomenti, scrivete un
-programma utilizza un metodo statico ricorsivo per calcolare e stampare
-la potenza 𝛼<sup><var>n</var></sup>.
+programma che stampa la potenza 𝛼<sup><var>n</var></sup>. Il programma deve contenere
+un metodo statico ricorsivo che dati 𝛼 e <var>n</var> restituisce 𝛼<sup><var>n</var></sup>.
 
 Vincoli
 -------
