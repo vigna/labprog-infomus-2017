@@ -1,5 +1,0 @@
-aaa
-
-coc
-a bob coc e
-a bob bob coc e

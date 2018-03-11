@@ -1,7 +1,0 @@
-a
-bob
-coc
-dod
-e
-fof
-gog
