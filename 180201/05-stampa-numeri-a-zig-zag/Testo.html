@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="/Users/vigna/www/labprog/labprog.css" type="text/css" />
+</head>
+<body>
+<h1 id="stampa-numeri-a-zig-zag">Stampa numeri a zig-zag</h1>
+<h2 id="descrizione">Descrizione</h2>
+<p>Scrivete un programma che legge da linea di comando due numeri interi <code>r</code> e <code>c</code> strettamente positivi e stampa una matrice di numeri con <code>r</code> righe e <code>c</code> colonne. Gli elementi della matrice sono i numeri da 1 a <code>r*c</code> disposti nel verso della antidiagonale della matrice. La scansione è effettuata alternativamente dall'alto verso il basso, e quindi dal basso verso l'alto, come negli esempi sottostanti.</p>
+<h2 id="vincoli">Vincoli</h2>
+<p>Nella stampa del risultato gli elementi della matrice devono essere separati dal carattere di tabulazione <code>\t</code>.</p>
+<h2 id="esempio">Esempio</h2>
+<p>Eseguendo</p>
+<pre><code>soluzione 3 7</code></pre>
+<p>il programma stampa</p>
+<pre><code>1       3       4       9       10      15      16
+2       5       8       11      14      17      20
+6       7       12      13      18      19      21</code></pre>
+<p>Eseguendo</p>
+<pre><code>soluzione 9 11</code></pre>
+<p>il programma stampa</p>
+<pre><code>1       3       4       10      11      21      22      36      37      54      55
+2       5       9       12      20      23      35      38      53      56      71
+6       8       13      19      24      34      39      52      57      70      72
+7       14      18      25      33      40      51      58      69      73      84
+15      17      26      32      41      50      59      68      74      83      85
+16      27      31      42      49      60      67      75      82      86      93
+28      30      43      48      61      66      76      81      87      92      94
+29      44      47      62      65      77      80      88      91      95      98
+45      46      63      64      78      79      89      90      96      97      99</code></pre>
+<p>Eseguendo</p>
+<pre><code>soluzione 11 7</code></pre>
+<p>il programma stampa</p>
+<pre><code>1       3       4       10      11      21      22
+2       5       9       12      20      23      35
+6       8       13      19      24      34      36
+7       14      18      25      33      37      49
+15      17      26      32      38      48      50
+16      27      31      39      47      51      62
+28      30      40      46      52      61      63
+29      41      45      53      60      64      71
+42      44      54      59      65      70      72
+43      55      58      66      69      73      76
+56      57      67      68      74      75      77</code></pre>
+<p>Eseguendo</p>
+<pre><code>soluzione 4 1</code></pre>
+<p>il programma stampa</p>
+<pre><code>1
+2
+3
+4</code></pre>
+</body>
+</html>

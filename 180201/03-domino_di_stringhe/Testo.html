@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="/Users/vigna/www/labprog/labprog.css" type="text/css" />
+</head>
+<body>
+<h1 id="domino-di-stringhe">Domino di stringhe</h1>
+<h2 id="descrizione">Descrizione</h2>
+<p>Dovete scrivere un programma che crea un domino tra stringhe.</p>
+<p>Il programma legge una lista di stringhe, una per riga, scartando quelle contenenti meno di tre caratteri. A questo punto scandisce la lista delle stringhe rimanenti, e crea un domino in cui ogni stringa è collegata alla successiva dal fatto che i suoi ultimi due caratteri sono uguali ai primi due della successave.</p>
+<p>L'algoritmo comincia inserendo nel domino la prima stringa (tra quelle lunghe almeno tre caratteri). A questo punto cerca la prima stringa dopo la prima le cui due iniziali sono uguali alle ultime due lettere della prima. Procede poi cercando una stringa successiva con lo stesso criterio, e così via. Durante la ricerca, se viene raggiunta la fine della lista si riparte dall'inizio della lista. La ricerca termina quando non si riesce più a trovare una stringa da agganciare.</p>
+<p>Notate che ogni stringa che è stata inserita nella lista delle parole agganciate non va più considerata.</p>
+<p>Al termine il programma stampa le stringhe agganciate, una per riga. Ogni stringa viene stampata con il primo carattere maiuscolo e gli altri minuscoli.</p>
+<p>Ad esempio, se in input fosse fornita la seguente lista di stringhe:</p>
+<pre><code>CASA
+tornate
+sasso
+Calamari
+NATANTE
+Io
+Teca
+No
+rinascere
+notare
+sospetto
+renna</code></pre>
+<p>Le stringhe <code>Io</code> e <code>No</code> sarebbero scartate perchè contengono meno di tre caratteri.</p>
+<p>La lista rimanente sarebbe quindi</p>
+<pre><code>CASA
+tornate
+sasso
+reno
+Calamari
+NATANTE
+Teca
+rinascere
+notare
+sospetto
+renna</code></pre>
+<p>E produrrebbe il seguente output:</p>
+<pre><code>Casa
+Sasso
+Sospetto
+Tornate
+Teca
+Calamari
+Rinascere
+Renna
+Natante</code></pre>
+<p>Notate che alla stringa <code>Rinascere</code> viene attaccata la stringa <code>Renna</code> (non la stringa <code>Reno</code>) poichè la ricerca della stringa da attaccare deve partire dalle posizioni successive a <code>Rinascere</code>.</p>
+<h2 id="suggerimenti">Suggerimenti</h2>
+<p>Notate che secondo le regole suddette:</p>
+<ul>
+<li>se la lista di stringhe fornita in input non contiene stringhe con più di due caratteri il programma non stampa nulla;</li>
+<li>se la lista di stringhe contiene solo una stringa o se nessuna stringa si aggancia alla prima, il programma stampa comunque la prima stringa.</li>
+</ul>
+<h2 id="esempio">Esempio</h2>
+<p>Eseguendo</p>
+<pre><code>soluzione</code></pre>
+<p>e inserendo dal flusso di input</p>
+<pre><code>amo
+piace
+tutto
+tris
+otto</code></pre>
+<p>il programma stampa</p>
+<pre><code>Amo</code></pre>
+<p>Eseguendo</p>
+<pre><code>soluzione</code></pre>
+<p>e inserendo dal flusso di input</p>
+<pre><code>io
+tu
+NO
+ma</code></pre>
+<p>il programma non stampa nulla</p>
+<p>Eseguendo</p>
+<pre><code>soluzione</code></pre>
+<p>e inserendo dal flusso di input</p>
+<pre><code>abcd
+aaab
+cccd
+abcde
+cdeeef
+cdaa
+efffgcc</code></pre>
+<p>il programma stampa</p>
+<pre><code>Abcd
+Cdeeef
+Efffgcc
+Cccd
+Cdaa
+Aaab
+Abcde</code></pre>
+</body>
+</html>
